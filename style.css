@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #655c5c;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1080px;
+    margin:0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    padding: 20px 10px;
+}
+
+header .container1-title a{
+    color:#fff;
+    font-size: 30px;
+}
+
+nav a{
+    color:#fff;
+    font-size: 18px;
+}
+.container, .btn{
+    flex:1;
+    justify-content: center;
+}
+
+.menu{
+    flex:2;
+    justify-content: space-evenly;
+}
+
+.btn button{
+    padding:8px 20px;
+    background-color:aqua;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.image{
+    flex:1;
+
+}
+.about{
+    flex:2;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left: 50px;
+    line-height: 45px;
+}
+
+.about .name{
+    color:aqua;
+    font-weight: 800;
+}
+
+.image img{
+    width:500px;
+    height:500px;
+    border-radius: 20px;
+}
+.cv-btn{
+    border: 1px solid aqua;
+    background-color: #655c5c;
+    color: aqua;
+    font-size: 20px;
+}
+.cv-btn>a{
+    color: aqua;
+}
+.name{
+    font-size: 40px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}

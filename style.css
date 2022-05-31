@@ -12,12 +12,13 @@ body{
 
 .flex{
     display: flex;
+   
 }
 
 .container{
     max-width: 1080px;
     margin:0 auto;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
 }
 
@@ -54,10 +55,7 @@ nav a{
     cursor:pointer;
 }
 
-.image{
-    flex:1;
 
-}
 .about{
     flex:2;
     flex-direction: column;
@@ -73,9 +71,9 @@ nav a{
 }
 
 .image img{
-    width:500px;
-    height:500px;
-    border-radius: 20px;
+    width:400px;
+    height:400px;
+    border-radius: 50%;
 }
 .cv-btn{
     border: 1px solid aqua;
